@@ -64,9 +64,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqaauto</value>
-    <value name="createdDate">1732186684580</value>
-    <value name="lastModifiedDate">1732186684580</value>
+    <value name="lastModifiedBy">siqaauto</value>
+    <value name="lastModifiedDate">1732187432655</value>
     <value name="displayName">ValidateWMIOSchemaDAF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -88,7 +87,7 @@
         <array name="mapSet" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
             <value name="field">/conformsTo;1;0</value>
-            <value name="value">fld_109875910_stage00.projects.flf132e31fcd94146b900bc1.documenttypes:Student</value>
+            <value name="value">project.siqa21novtest.documenttypes:Student</value>
             <Boolean name="variableSubstitution">false</Boolean>
             <Boolean name="overwrite">true</Boolean>
             <Boolean name="globalVariables">false</Boolean>
@@ -98,6 +97,9 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
