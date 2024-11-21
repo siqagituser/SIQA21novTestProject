@@ -8,7 +8,19 @@ packages:
   gitUsername: siqagituser
   gitBranch: main
 - name: SIQA_OriginTest_OnPremAssets
+  version: "1.0"
   gitServerName: siqagituser
   gitUrl: https://github.com/vijetadixit
   gitUsername: siqagituser
   gitBranch: Test
+services:
+- serviceName: project.siqa21novtest.integrations:ValidateWMIOSchemaDAF
+  packages:
+  - name: SIQA21novTestProject
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.schema:validate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
