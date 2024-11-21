@@ -14,7 +14,7 @@ packages:
   gitUsername: siqagituser
   gitBranch: Test
 services:
-- serviceName: project.siqa21novtest.integrations:ValidateWMIOSchemaDAF
+- serviceName: project.siqa21novtest.integrations:ValidateSchemaTPPinDAF
   packages:
   - name: SIQA21novTestProject
     version: "1.0"
